@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAPI", "NetCoreAPI\NetCoreAPI.csproj", "{DB306A85-42E6-4DBA-8B1F-459D8CB29EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB306A85-42E6-4DBA-8B1F-459D8CB29EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB306A85-42E6-4DBA-8B1F-459D8CB29EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB306A85-42E6-4DBA-8B1F-459D8CB29EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB306A85-42E6-4DBA-8B1F-459D8CB29EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690C1E95-E4F6-4683-98D6-173D31FFD34D}
+	EndGlobalSection
+EndGlobal
