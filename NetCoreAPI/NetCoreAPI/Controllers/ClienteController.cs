@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NetCoreAPI.Models;
+using System.Security.Claims;
 
 namespace NetCoreAPI.Controllers
 {
@@ -19,15 +21,15 @@ namespace NetCoreAPI.Controllers
                 {
                     id = "1",
                     correo = "google@gmail.com",
-                    edad ="28",
-                    nombre = "Pancho"
+                    edad = "19",
+                    nombre = "Bernardo Peña"
                 },
                 new ClienteModel
                 {
                     id = "2",
-                    correo = "google2@gmail.com",
-                    edad ="28",
-                    nombre = "Juan"
+                    correo = "miguelgoogle@gmail.com",
+                    edad = "23",
+                    nombre = "Miguel Mantilla"
                 }
             };
            return clientes;
@@ -35,17 +37,16 @@ namespace NetCoreAPI.Controllers
         }
         [HttpGet]
         [Route("listarxid")]
-        public dynamic listarClientexid(string _id)
+        public dynamic listarClientexid(int codigo)
         {
 
             //obtienes en cliente dB
             return new ClienteModel
             {
-                id = _id,
-                correo = "google2@gmail.com",
-                edad ="28",
-                nombre = "Juan"
-  
+                id = codigo.ToString(),
+                correo = "google@gmail.com",
+                edad = "19",
+                nombre = "Bernardo Peña"
             };
 
         }
@@ -54,6 +55,7 @@ namespace NetCoreAPI.Controllers
         [Route("guardar")]
         public dynamic guardarCliente(ClienteModel cliente)
         {
+            //Guardar en la db y le asignas un id
             cliente.id = "3";
 
             return new
@@ -66,11 +68,34 @@ namespace NetCoreAPI.Controllers
 
         [HttpPost]
         [Route("eliminar")]
+        [Authorize]//para que si o si me envie un token valido(para ahorar recursos)
         public dynamic eliminarCliente(ClienteModel cliente)
         {
+            //obtener el token
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+            //respuesta token
+            var rToken = Jwt.validarToken(identity);
+
+            if (!rToken.success) return rToken;
+
+            //
+            UsuarioModel usuario = rToken.result;
+            if (usuario.rol != "administrador") 
+            {
+                return new
+                {
+                    success = false,
+                    message = "No tienes permisos para eliminar clientes",
+                    result = ""
+                };
+            }
+
+            /*Validacion simple
             string token = Request.Headers.Where(x => x.Key == "Authorization").FirstOrDefault().Value;
-            //elimna en DB
-            if (token != "Juan")
+            //eliminas en la db
+
+            if (token != "marco123.")
             {
                 return new
                 {
@@ -79,10 +104,11 @@ namespace NetCoreAPI.Controllers
                     result = ""
                 };
             }
+            */
             return new
             {
                 success = true,
-                message = "Cliente Eliminado",
+                message = "cliente eliminado",
                 result = cliente
             };
 

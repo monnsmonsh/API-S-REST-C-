@@ -2,7 +2,7 @@
   {
     "ContainingType": "NetCoreAPI.Controllers.ClienteController",
     "Method": "eliminarCliente",
-    "RelativePath": "Cliente/eliminar",
+    "RelativePath": "cliente/eliminar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,8 +18,8 @@
   {
     "ContainingType": "NetCoreAPI.Controllers.ClienteController",
     "Method": "guardarCliente",
-    "RelativePath": "Cliente/guardar",
-    "HttpMethod": "GET",
+    "RelativePath": "cliente/guardar",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -34,7 +34,7 @@
   {
     "ContainingType": "NetCoreAPI.Controllers.ClienteController",
     "Method": "listarCliente",
-    "RelativePath": "Cliente/listar",
+    "RelativePath": "cliente/listar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,15 +44,31 @@
   {
     "ContainingType": "NetCoreAPI.Controllers.ClienteController",
     "Method": "listarClientexid",
-    "RelativePath": "Cliente/listarxid",
+    "RelativePath": "cliente/listarxid",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "_id",
-        "Type": "System.String",
+        "Name": "codigo",
+        "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetCoreAPI.Controllers.UsuarioController",
+    "Method": "IniciarSecion",
+    "RelativePath": "Usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "optData",
+        "Type": "System.Object",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
