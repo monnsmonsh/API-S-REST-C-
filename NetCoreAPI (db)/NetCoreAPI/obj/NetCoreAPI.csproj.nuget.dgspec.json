@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI\\NetCoreAPI\\NetCoreAPI.csproj": {}
+    "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI (db)\\NetCoreAPI\\NetCoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI\\NetCoreAPI\\NetCoreAPI.csproj": {
+    "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI (db)\\NetCoreAPI\\NetCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI\\NetCoreAPI\\NetCoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI (db)\\NetCoreAPI\\NetCoreAPI.csproj",
         "projectName": "NetCoreAPI",
-        "projectPath": "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI\\NetCoreAPI\\NetCoreAPI.csproj",
+        "projectPath": "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI (db)\\NetCoreAPI\\NetCoreAPI.csproj",
         "packagesPath": "C:\\Users\\monnsmonsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI\\NetCoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\monnsmonsh\\Documents\\GitHubProyects\\APIS-REST-.Net\\NetCoreAPI (db)\\NetCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\monnsmonsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,6 +66,10 @@
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [

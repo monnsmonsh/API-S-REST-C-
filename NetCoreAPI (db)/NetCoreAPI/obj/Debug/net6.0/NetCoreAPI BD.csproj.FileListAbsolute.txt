@@ -1,0 +1,53 @@
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\NetCoreAPI BD.exe
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\NetCoreAPI BD.deps.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\NetCoreAPI BD.runtimeconfig.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\NetCoreAPI BD.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\NetCoreAPI BD.pdb
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.csproj.AssemblyReference.cache
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.AssemblyInfoInputs.cache
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.AssemblyInfo.cs
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.csproj.CoreCompileInputs.cache
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.sourcelink.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.NetCoreAPI BD.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.NetCoreAPI BD.props
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.NetCoreAPI BD.props
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.NetCoreAPI BD.props
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\scopedcss\bundle\NetCoreAPI BD.styles.css
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreA.D9458CF0.Up2Date
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\refint\NetCoreAPI BD.dll
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.pdb
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\NetCoreAPI BD.genruntimeconfig.cache
+C:\Users\monnsmonsh\Documents\GitHubProyects\APIS-REST-.Net\NetCoreAPI (db)\NetCoreAPI\obj\Debug\net6.0\ref\NetCoreAPI BD.dll

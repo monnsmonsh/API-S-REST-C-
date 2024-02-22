@@ -58,6 +58,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NetCoreAPI.Controllers.ProductorController",
+    "Method": "ListarProductos",
+    "RelativePath": "producto/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NetCoreAPI.Controllers.UsuarioController",
     "Method": "IniciarSecion",
     "RelativePath": "Usuario/login",
@@ -83,7 +93,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[NetCoreAPI.WeatherForecast, NetCoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NetCoreAPI.WeatherForecast, NetCoreAPI BD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
