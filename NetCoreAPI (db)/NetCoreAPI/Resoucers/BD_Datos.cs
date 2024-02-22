@@ -82,7 +82,8 @@ namespace NetCoreAPI.Resoucers
 
 
         //Metodo cuando tenemos que guardar y update
-        public static bool Ejecutar(string nombreProcedimiento, List<Parametro> parametros = null)
+        //cambiamos de bool a dynamic
+        public static dynamic Ejecutar(string nombreProcedimiento, List<Parametro> parametros = null)
         {
             SqlConnection conexion = new SqlConnection(cadenaConexion);
 
@@ -102,11 +103,23 @@ namespace NetCoreAPI.Resoucers
 
                 int i = cmd.ExecuteNonQuery();
 
-                return (i > 0) ? true : false;
+                //return (i > 0) ? true : false;
+                bool exito = (i > 0) ? true : false;
+                return new
+                {
+                    exito = exito,
+                    mensaje = "exito"
+                };
             }
             catch (Exception ex)
             {
-                return false;
+                return new
+                {
+                    exito = false,
+                    mensaje = ex.Message
+                };
+                
+                //return false;
             }
             finally
             {

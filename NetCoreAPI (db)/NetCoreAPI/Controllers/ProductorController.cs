@@ -44,5 +44,29 @@ namespace NetCoreAPI.Controllers
                 }
             };
         }
+
+        //para registrar producto
+        [HttpPost]
+        [Route("agregar")]
+        public dynamic AgregarProducto(ProductoModel producto)
+        {
+
+            List<Parametro> parametros = new List<Parametro>
+            {
+                new Parametro("@IDCategoria", producto.IDCategoria),
+                new Parametro("@Nombre", producto.Nombre),
+                new Parametro("@Precio", producto.Precio),
+            };
+
+            dynamic result = BD_Datos.Ejecutar("Producto_Agregar", parametros);
+
+            return new
+            {
+                success = result.exito,
+                message = result.mensaje ? "exito" : "Error al Guardar",
+                result = ""
+            };
+
+        }
     }
 }

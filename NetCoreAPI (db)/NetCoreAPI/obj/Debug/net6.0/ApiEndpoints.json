@@ -59,6 +59,22 @@
   },
   {
     "ContainingType": "NetCoreAPI.Controllers.ProductorController",
+    "Method": "AgregarProducto",
+    "RelativePath": "producto/agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "NetCoreAPI_BD.Models.ProductoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetCoreAPI.Controllers.ProductorController",
     "Method": "ListarProductos",
     "RelativePath": "producto/listar",
     "HttpMethod": "GET",
